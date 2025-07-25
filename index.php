@@ -410,7 +410,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="shadow-primary p-t100 p-b100 btn-rounder bg-cover text-center m-t--140"
-                    style="background: url('images/bg-counter-1.jpg') center center no-repeat;">
+                    style="background: url('assets/images/home/bg-counter-1.jpg') center center no-repeat;">
                     <div class="bg-overlay"></div>
                     <div class="row">
                         <div class="col-md-3 col-sm-6 sm-m-b40 xs-m-b40">

@@ -1149,6 +1149,53 @@ path.shape-fill {
     background-position-x: 100%;
     background-position-y: 155px;
     background-repeat: no-repeat;
+    overflow: unset;
+}
+
+.btn-rounder {
+    border-radius: 15px;
+}
+
+.shadow-primary {
+    box-shadow: 23px 23px 87px 0px rgba(254, 76, 28, .42);
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+.m-t--140 {
+    margin-top: -140px;
+}
+
+.p-b100 {
+    padding-bottom: 100px;
+}
+
+.p-t100 {
+    padding-top: 100px;
+}
+
+.ot-counter h6 {
+    font-size: 14px;
+    color: #ffd68e;    
+    margin-bottom: 13px;
+    margin-top: 0;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: relative;
+}
+
+.ot-counter span {
+    font-size: 48px;
+    line-height: 1;    
+    color: #fff;
+}
+
+.ot-counter span.num {
+    padding-left: 20px;
 }
 
 
