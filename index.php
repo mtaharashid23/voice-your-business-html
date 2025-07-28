@@ -506,4 +506,93 @@
         </div>
     </div>
 </section>
+<section class="p-b40 xs-p-b0">
+    <div class="row">
+        <div class="col-md-1/5 col-sm-6 col-xs-12">
+            <div class="team-wrap sm-p-t0 p-t200">
+                <div class="team-thumb">
+                    <img src="assets/images/mem1-1.jpg" alt="Gina Bruno">
+                </div>
+                <div class="team-info">
+                    <h4>Gina Bruno</h4>
+                    <span>WEB Designer</span>
+                    <div class="team-social">
+                        <a target="_blank" href="#" class="twitter"><i class="fab fab fa-twitter"></i></a>
+                        <a target="_blank" href="#" class="facebook"><i class="fab fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="#" class="pinterest"><i class="fab fab fa-pinterest-p"></i></a>
+                        <span class="flaticon-add-1"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1/5 col-sm-6 col-xs-12">
+            <div class="team-wrap sm-p-t50 p-t150">
+                <div class="team-thumb">
+                    <img src="assets/images/mem2-1.jpg" alt="David Ferry">
+                </div>
+                <div class="team-info">
+                    <h4>David Ferry</h4>
+                    <span>CTO of Company</span>
+                    <div class="team-social">
+                        <a target="_blank" href="#" class="twitter"><i class="fab fab fa-twitter"></i></a>
+                        <a target="_blank" href="#" class="facebook"><i class="fab fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="#" class="pinterest"><i class="fab fab fa-pinterest-p"></i></a>
+                        <span class="flaticon-add-1"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1/5 col-sm-6 col-xs-12">
+            <div class="team-wrap sm-p-t0 p-t100">
+                <div class="team-thumb">
+                    <img src="assets/images/mem3-1.jpg" alt="Christina Tores">
+                </div>
+                <div class="team-info">
+                    <h4>Christina Tores</h4>
+                    <span>CEO of Company</span>
+                    <div class="team-social">
+                        <a target="_blank" href="#" class="twitter"><i class="fab fab fa-twitter"></i></a>
+                        <a target="_blank" href="#" class="facebook"><i class="fab fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="#" class="pinterest"><i class="fab fab fa-pinterest-p"></i></a>
+                        <span class="flaticon-add-1"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1/5 col-sm-6 col-xs-12">
+            <div class="team-wrap p-t50">
+                <div class="team-thumb">
+                    <img src="assets/images/mem4-1.jpg" alt="Regina Blackly">
+                </div>
+                <div class="team-info">
+                    <h4>Regina Blackly</h4>
+                    <span>WEB Developer</span>
+                    <div class="team-social">
+                        <a target="_blank" href="#" class="twitter"><i class="fab fab fa-twitter"></i></a>
+                        <a target="_blank" href="#" class="facebook"><i class="fab fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="#" class="pinterest"><i class="fab fab fa-pinterest-p"></i></a>
+                        <span class="flaticon-add-1"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1/5 col-sm-6 col-xs-12">
+            <div class="team-wrap">
+                <div class="team-thumb">
+                    <img src="assets/images/mem5-1.jpg" alt="Olivia Chee">
+                </div>
+                <div class="team-info">
+                    <h4>Olivia Chee</h4>
+                    <span>General Manager</span>
+                    <div class="team-social">
+                        <a target="_blank" href="#" class="twitter"><i class="fab fab fa-twitter"></i></a>
+                        <a target="_blank" href="#" class="facebook"><i class="fab fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="#" class="pinterest"><i class="fab fab fa-pinterest-p"></i></a>
+                        <span class="flaticon-add-1"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php include "include/footer.php" ?>

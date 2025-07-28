@@ -1179,7 +1179,7 @@ path.shape-fill {
 
 .ot-counter h6 {
     font-size: 14px;
-    color: #ffd68e;    
+    color: #ffd68e;
     margin-bottom: 13px;
     margin-top: 0;
     padding-left: 20px;
@@ -1190,12 +1190,283 @@ path.shape-fill {
 
 .ot-counter span {
     font-size: 48px;
-    line-height: 1;    
+    line-height: 1;
     color: #fff;
 }
 
 .ot-counter span.num {
     padding-left: 20px;
+}
+
+.p-t120 {
+    padding-top: 120px;
+}
+
+.p-b130 {
+    padding-bottom: 130px;
+}
+
+.ot-accordions .acc-item {
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 8px 8px 25px 0px rgba(42, 67, 113, 0.15);
+    -webkit-box-shadow: 8px 8px 25px 0px rgba(42, 67, 113, 0.15);
+    -moz-box-shadow: 8px 8px 25px 0px rgba(42, 67, 113, 0.15);
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+}
+
+.ot-accordions .acc-item .acc-toggle {
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    font-weight: 500;
+    color: #1a1b1e;
+    padding: 13px 10px 13px 25px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.ot-accordions .acc-item .acc-toggle i {
+    float: right;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    background: #00c3ff;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.ot-accordions .acc-item .acc-toggle i.up {
+    display: none;
+}
+
+.ot-accordions .acc-item .acc-toggle:hover {
+    color: #00c3ff;
+}
+
+.ot-accordions .acc-item .acc-content {
+    display: none;
+    padding: 0 25px 20px;
+}
+
+.ot-accordions .acc-item .acc-content p:last-child,
+.ot-accordions .acc-item .acc-content ul:last-child {
+    margin-bottom: 0;
+}
+
+.ot-accordions .acc-item.current {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+}
+
+.ot-accordions .acc-item.current .acc-toggle {
+    color: #00c3ff;
+}
+
+.ot-accordions .acc-item.current .acc-toggle i.down {
+    display: none;
+}
+
+.ot-accordions .acc-item.current .acc-toggle i.up {
+    display: inherit;
+}
+
+.ot-accordions .acc-item:last-child {
+    margin-bottom: 0;
+}
+
+.p-b40 {
+    padding-bottom: 40px;
+}
+
+.p-t200 {
+    padding-top: 200px;
+}
+
+.team-wrap {
+    text-align: center;
+}
+
+.team-wrap .team-thumb {
+    overflow: hidden;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+.team-wrap .team-thumb img {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    width: 100%;
+}
+
+.team-wrap .team-info {
+    background: #fff;
+    margin: -80px 30px 0;
+    padding: 25px 25px 35px;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+    -webkit-box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+    -moz-box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+}
+
+.team-wrap .team-info h4 {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.team-wrap .team-info h4 a {
+    color: #1a1b1e;
+}
+
+.team-wrap .team-social {
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    width: 100%;
+}
+
+.team-wrap .team-social a,
+.team-wrap .team-social span {
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 12px;
+    color: #fff;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: #00c3ff;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-shadow: 5px 5px 18px 0px rgba(21, 183, 236, 0.3);
+    -webkit-box-shadow: 5px 5px 18px 0px rgba(21, 183, 236, 0.3);
+    -moz-box-shadow: 5px 5px 18px 0px rgba(21, 183, 236, 0.3);
+}
+
+.team-wrap .team-social a:hover,
+.team-wrap .team-social span:hover {
+    box-shadow: none;
+}
+
+.team-wrap .team-social a {
+    opacity: 0;
+    right: -40px;
+    position: relative;
+    visibility: hidden;
+}
+
+.team-wrap .team-social a:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.team-wrap .team-social span {
+    margin-right: 0;
+}
+
+.team-wrap .team-social.active span {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-shadow: 5px 5px 18px 0px rgba(42, 67, 113, 0.15);
+    -webkit-box-shadow: 5px 5px 18px 0px rgba(42, 67, 113, 0.15);
+    -moz-box-shadow: 5px 5px 18px 0px rgba(42, 67, 113, 0.15);
+    background: #fff;
+    color: #00c3ff;
+}
+
+.team-wrap .team-social.active a {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+    box-shadow: 5px 5px 18px 0px rgba(42, 67, 113, 0.15);
+    -webkit-box-shadow: 5px 5px 18px 0px rgba(42, 67, 113, 0.15);
+    -moz-box-shadow: 5px 5px 18px 0px rgba(42, 67, 113, 0.15);
+}
+
+.team-wrap:hover img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.team-slider,
+.team-slider-h5 {
+    margin: 0 -15px;
+}
+
+.team-slider .team-wrap,
+.team-slider-h5 .team-wrap {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .team-wrap {
+        display: block;
+        text-align: center;
+    }
+
+    .team-wrap .team-thumb {
+        display: block;
+        margin: 0 auto 25px;
+    }
+
+    .team-wrap .team-info {
+        display: block;
+        padding-left: 0;
+        border: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-1\/5 {
+        width: 20%;
+    }
+}
+.p-t150 {
+    padding-top: 150px;
+}
+
+.p-t100 {
+    padding-top: 100px;
+}
+
+.p-t50 {
+    padding-top: 50px;
 }
 
 
